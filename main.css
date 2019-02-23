@@ -1,0 +1,19 @@
+/* main.css */
+
+	li {
+		color: blue;
+	}
+
+	body {
+		background-color:#CCCCC;
+	}
+
+	h1 {
+		color:#0000EE;
+    }
+    a {
+        color: green;
+    }
+    menu ul:hover {
+        background-color:#99ccff
+    }
