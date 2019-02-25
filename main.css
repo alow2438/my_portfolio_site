@@ -17,3 +17,8 @@
     menu ul:hover {
         background-color:#99ccff
     }
+    img {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
