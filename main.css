@@ -2,7 +2,8 @@
 
 
 	body {
-		background-color:#CCCCC;
+        background-color:#CCCCC;
+        font-family: Arial, Helvetica, sans-serif;
 	}
 
 	h1 {
@@ -70,7 +71,7 @@
       
       .text {
         color: white;
-        font-size: 20px;
+        font-size: 50px;
         position: absolute;
         top: 50%;
         left: 50%;
