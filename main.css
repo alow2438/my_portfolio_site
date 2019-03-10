@@ -24,6 +24,8 @@
 
     p {
         margin: 25px 25px 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px
     }
     .our-story {
         color:#474649;
@@ -101,7 +103,7 @@
 
       .dropdown-content a {
           color: black;
-          padding; 16px 16px;
+          padding: 16px 16px;
           text-decoration: none;
           display: block;
       }
@@ -144,9 +146,11 @@
           opacity: .5;
           color: white;
           text-align: center;
+          font-size: 12px;
       }
+      
       .button {
-          position: center;
+          position: relative;
       }
 
       .invite{
@@ -156,10 +160,12 @@
         width: 50%;
         height: auto;
       }
-     .container2 {
+     .container2:hover {
         width: 60%;
         margin: 2rem auto;
-      }
+        box-shadow: inset 0 0 0 10px #201149;
+        }
+      
       .gallery {
           display: grid;
           grid-template-columns: repeat(8, 1fr);
