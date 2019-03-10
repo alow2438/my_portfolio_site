@@ -53,14 +53,7 @@
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-size: 1.5rem;
   }
-  
-  .dev-icons {
-    font-size: 3rem;
-  }
-  
-  .dev-icons .list-inline-item i:hover {
-    color: #201149;
-  }
+
   
   #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 800;

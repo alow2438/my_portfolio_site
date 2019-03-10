@@ -1,43 +1,35 @@
 /* main.css */
 
 
-	body {
-        background-color:#CCCCC;
-        font-family: Arial, Helvetica, sans-serif;
-	}
-
-	h1 {
-        color:#474649;
+	.title {
+        font-family: "Alex Brush"; 
         text-align: center;
+        color: #474649;
+	}
+   
+    .story {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px
+    }
+
+    h1, h2, h3 {
+        color:#474649;
+        text-align: left;
+        font-family: "Alex Brush"; font-size: 33px;
     }
     
-    h2 {
-        color: #474649;
-    }
-    h3 {
-        color: #474649;
-    }
-    h4{
-        color: #474649;
-    }
-    h5{
-        color: #474649;
-    }
-    h6{
-        color: #474649;
-    }
-    h7{
-        color: #474649;
-    }
-
     a {
-        color: green;
+        color: #201149;
     }
 
     p {
-        margin: 10px 10px 15px;
+        margin: 25px 25px 30px;
     }
-
+    .our-story {
+        color:#474649;
+        text-align: center;
+        font-family: "Alex Brush"; font-size: 33px;
+    }
     .container {
         position: relative;
         width: 100%;
@@ -71,6 +63,7 @@
       
       .text {
         color: white;
+        font-family: "Alex Brush"; 
         font-size: 50px;
         position: absolute;
         top: 50%;
@@ -94,7 +87,7 @@
       .dropdown {
           position: relative;
           display: flex;
-          justify-content: center;
+          justify-content: right;
       }
 
       .dropdown-content {
@@ -143,6 +136,7 @@
 
       .footer {
           position: relative;
+          font-family: Arial, Helvetica, sans-serif;
           left: 0;
           bottom: 0;
           width: 100%;
@@ -151,3 +145,60 @@
           color: white;
           text-align: center;
       }
+      .button {
+          position: center;
+      }
+
+      .invite{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+      }
+     .container2 {
+        width: 60%;
+        margin: 2rem auto;
+      }
+      .gallery {
+          display: grid;
+          grid-template-columns: repeat(8, 1fr);
+          grid-auto-rows: repeat(8, 5vw);
+          grid-gap: 1rem;
+      }
+      .gallery-image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+      }
+
+      .gallery-item--1 {
+          grid-column-start: 1;
+          grid-column-end: 6;
+          grid-row-start: 1;
+          grid-row-end: 5;
+      }
+      .gallery-item--2 {
+        grid-column-start: 6;
+        grid-column-end: -1;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .gallery-item--3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 9;
+    }
+    .gallery-item--4 {
+        grid-column-start: 4;
+        grid-column-end: 9;
+        grid-row-start: 5;
+        grid-row-end: 9;
+    }
+    @media screen and (max-width: 1000px) {
+        .column {
+            width: auto;
+        }
+    }
