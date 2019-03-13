@@ -9,7 +9,7 @@
    
     .story {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px
+        font-size: 18px;
     }
 
     h1, h2, h3 {
@@ -25,7 +25,7 @@
     p {
         margin: 25px 25px 30px;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px
+        font-size: 18px;
     }
     .our-story {
         color:#474649;
@@ -33,11 +33,8 @@
         font-family: "Alex Brush"; font-size: 33px;
     }
     .container {
-        display: block;
         position: relative;
-        object-fit: cover;
         width: 100%;
-        height: auto;
         padding-top: 20px;
         padding-right: 20px;
         padding-left: 20px;
@@ -178,7 +175,7 @@
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-auto-rows: repeat(8, 5vw);
-        grid-gap: 0px;
+        grid-gap: 1rem;
     }
 
     .gallery-image {
